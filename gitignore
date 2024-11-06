@@ -1,0 +1,45 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar archivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar directorio de dependencias de lock
+package-lock.json
+yarn.lock
+
+# Ignorar archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Ignorar configuraciones específicas del entorno
+.env
+.env.local
+.env.*.local
+
+# Ignorar archivos de construcción
+dist/
+build/
+
+# Ignorar caché de npm y yarn
+.npm/
+.yarn/
+
+# Ignorar directorios de cobertura de pruebas
+coverage/
+
+# Ignorar configuraciones de IDE y editores de texto comunes
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar archivos de producción
+*.log
+*.cache
+.cache/
+
+# Ignorar archivos de pruebas de snapshots
+__snapshots__/
